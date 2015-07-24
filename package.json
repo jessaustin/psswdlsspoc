@@ -4,9 +4,13 @@
   "description": "Proof-of-concept for Passwordless on AWS w/o permanent EC2",
   "main": "index.js",
   "dependencies": {
-    "passwordless": "^1.1.0"
+    "aws-sdk": "~2.1.39",
+    "passwordless": "~1.1.0",
+    "passwordless-dynamostore": "~0.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.9.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
